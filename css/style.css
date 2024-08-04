@@ -1,0 +1,139 @@
+* {
+  font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+body {
+  background-color:#f0f4f9
+}
+
+div {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background-color: white;
+  margin-top: 150px;
+  position: relative;
+}
+
+.email-field {
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  color: #1f1f1f;
+  font-size: 16px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+}
+
+.email-field:focus {
+  border-color: #0b57d0;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+div .forgot {
+  margin-right: 37%;
+  transition: background-color 0.5s ease;
+}
+
+a {
+  color:#0b57d0;
+}
+
+.computer {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.create-acc-btn {
+  width: 190px ;
+  height: 45px;
+  font-size: 22px;
+  border-radius: 30px;
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 150px;
+  margin-bottom: 10%;
+  color: #0b57d0;
+  transition: background-color 0.5s ease;
+  margin-top: 5%;
+}
+
+.next-btn {
+  width: 85px;
+  height: 48px;
+  font-size: 22px;
+  border-radius: 30px;
+  border: 0px solid black;
+  background-color: #0b57d0;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px ;
+  transition: background-color 1s ease;
+  
+}
+
+.create-acc-btn:hover {
+  background-color: #c4c4c4;
+}
+
+.next-btn:hover {
+  background-color: rgb(0, 8, 119) ;
+}
+
+.account-icon {
+  width: 60px;
+  margin-top: 10px ;
+}
+
+.forgot:hover {
+  background-color: #c4c4c4 ;
+}
+
+.guest {
+  transition: background-color 1s ease;
+}
+
+.guest:hover {
+  background-color: #c4c4c4;
+}
+
+.Fname, .Lname {
+  display: flex;
+  margin-bottom: 10%;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  color: #1f1f1f;
+  font-size: 16px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  align-items: center;
+}
+
+#fname {
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+#lname {
+  margin-left: 20%;
+}
+
+#nxt {
+  display: flex;
+  float: right;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+
+#remake {
+  margin-left: 10%;
+}

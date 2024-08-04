@@ -3,9 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sign in - Google Accounts</title>
+  <link rel="icon" href="Assets/google-brands-solid.svg">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   
+  <div class="main-container">
+    
+    <img class="account-icon" src="Assets/google-brands-solid.svg">
+    
+    <h2>Sign in</h2>
+    
+    <p>Use your Google Account</p>
+    
+    <form>
+      <input class="email-field" type="text" placeholder="Email of phone">
+      <label for="email-field" class="email-label"></label>
+    </form>
+    
+    <a href="/forgot-email.html" class="forgot">Forgot email?</a>
+    
+    <p class="computer">Not your computer?<br> Use Guest mode to sing in privately.<br><a href="https://google.com" class="guest">Learn more about using Guest mode</a></p>
+    
+    <form>
+      <input id="createAccountBtn" type="button" value="Create account" class="create-acc-btn">
+      
+      <input class="next-btn" type="button" value="Next">
+    </form>
+  
+  <script>
+      document.getElementById('createAccountBtn').onclick = function() {
+          window.location.href = 'create-account.html';
+      };
+  </script>
+  </div>
 </body>
 </html>
